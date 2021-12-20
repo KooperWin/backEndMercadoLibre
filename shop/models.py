@@ -8,7 +8,7 @@ class Categorie(models.Model):
     imgUrl = models.TextField()
 
     def __str__(self):
-        return self.name+' '+self.imgUrl
+        return self.name
 
 class Product(models.Model):
     name = models.CharField(max_length=254)
